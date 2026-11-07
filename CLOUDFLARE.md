@@ -29,6 +29,7 @@
 - 실제 사이트의 그림 로딩, 70개 사물 영역, 촬영 수집과 얼굴 검열 효과를 확인했습니다.
 - 2026-11-07에 `findnshot.com`을 연결했습니다. 루트 도메인의 CNAME은 `findnshot.pages.dev`를 가리키며 Cloudflare 프록시를 사용합니다.
 - Cloudflare에서 도메인 Active 및 SSL enabled 상태를 확인했고, 실제 HTTPS 접속과 그림·사물 70개 로딩을 확인했습니다.
+- `www.findnshot.com`은 프록시 CNAME으로 `findnshot.com`에 연결했습니다. Cloudflare Single Redirect `WWW to findnshot.com`은 `*://www.findnshot.com/*`를 `https://findnshot.com/${2}`로 301 이동하며 경로와 쿼리 문자열을 보존합니다. HTTP·HTTPS 접속 모두 실제 이동을 확인했습니다.
 
 ## 로컬에서 보기
 
