@@ -22,11 +22,13 @@
 
 2026-11-07에 GitHub 연결, Pages 프로젝트 생성과 최초 배포를 완료했습니다.
 
-- 운영 주소: [findnshot.pages.dev](https://findnshot.pages.dev/)
+- 운영 주소: [findnshot.com](https://findnshot.com/)
+- Pages 기본 주소: [findnshot.pages.dev](https://findnshot.pages.dev/)
 - GitHub 저장소: [howon-kim/findnshot](https://github.com/howon-kim/findnshot)
 - `main` 브랜치의 새 커밋은 자동 배포됩니다.
 - 실제 사이트의 그림 로딩, 70개 사물 영역, 촬영 수집과 얼굴 검열 효과를 확인했습니다.
-- 사용자 도메인은 아직 연결하지 않았습니다.
+- 2026-11-07에 `findnshot.com`을 연결했습니다. 루트 도메인의 CNAME은 `findnshot.pages.dev`를 가리키며 Cloudflare 프록시를 사용합니다.
+- Cloudflare에서 도메인 Active 및 SSL enabled 상태를 확인했고, 실제 HTTPS 접속과 그림·사물 70개 로딩을 확인했습니다.
 
 ## 로컬에서 보기
 
