@@ -1,5 +1,7 @@
 # findnshot
 
+Live: [findnshot.pages.dev](https://findnshot.pages.dev/)
+
 An object-only interactive painting study using Joachim Beuckelaer's **The Well-stocked Kitchen (1566)**. Seventy manually curated rectangular bounding boxes reveal object names and let visitors collect cropped object views with one click. Fifteen manually marked face regions show an opaque, grayscale TV-static censor effect on hover, keyboard focus, or tap. Faces have no recognition result or capture action and never increment the collection. This is a local visual effect, not automatic face detection. The painting fills the viewport; visitors drag to pan cropped portions into view. Near a box, its corners fade in; hovering slightly magnifies and brightens the object and reveals its name. This is an explicitly labeled interactive prototype, not live AI inference or an accuracy evaluation.
 
 Serve `dist/` with a static HTTP server. Buildless HTML/CSS/JS, no dependencies or external fonts. The painting and all assets are bundled locally. Captures stay in browser memory and reset on reload; no analytics, camera access, uploads, face analysis, accounts, or remote model requests are implemented by this page. 
@@ -23,4 +25,4 @@ Browser checks: desktop and 390 px mobile viewport; 70 object targets and 15 pri
 
 ## Cloudflare Pages
 
-This project is ready for Git-based deployment from `howon-kim/findnshot`. See [CLOUDFLARE.md](CLOUDFLARE.md) for setup. No build dependencies, API keys, or environment variables are required.
+This project is deployed on Cloudflare Pages from the `main` branch of `howon-kim/findnshot`. New commits trigger automatic deployments. See [CLOUDFLARE.md](CLOUDFLARE.md) for setup. No build dependencies, API keys, or environment variables are required.

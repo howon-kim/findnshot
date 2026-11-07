@@ -20,7 +20,13 @@
 
 `wrangler.toml`에도 프로젝트 이름과 배포 폴더를 지정했습니다. Pages 프로젝트 이름을 다르게 정하면 파일의 `name`도 같은 이름으로 바꿉니다. `main`에 변경사항을 올리면 연결된 Pages 프로젝트가 자동으로 다시 배포합니다.
 
-현재 저장소는 배포 준비 상태입니다. Cloudflare 계정 연결, Pages 프로젝트 생성, 최초 배포, 사용자 도메인 연결은 아직 수행하지 않았습니다. 배포 후 실제 발급된 `pages.dev` 주소를 확인합니다.
+2026-11-07에 GitHub 연결, Pages 프로젝트 생성과 최초 배포를 완료했습니다.
+
+- 운영 주소: [findnshot.pages.dev](https://findnshot.pages.dev/)
+- GitHub 저장소: [howon-kim/findnshot](https://github.com/howon-kim/findnshot)
+- `main` 브랜치의 새 커밋은 자동 배포됩니다.
+- 실제 사이트의 그림 로딩, 70개 사물 영역, 촬영 수집과 얼굴 검열 효과를 확인했습니다.
+- 사용자 도메인은 아직 연결하지 않았습니다.
 
 ## 로컬에서 보기
 
